@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "path": "../../06-Components"
+    },
+    {
+      "path": "../../05-Design"
+    },
+    {
+      "path": "../../JavaScript-Udemy"
+    },
+    {
+      "path": "../../training-section"
+    },
+    {
+      "path": ".."
+    },
+    {
+      "path": "../../HTML-CSS"
+    },
+    {
+      "path": "../../JavaScript-Workshop"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "JavaScript-Workshop",
+    "git.ignoreLimitWarning": true
+  }
+}
