@@ -1,13 +1,17 @@
 """ Seeker """
 def main():
     """ print seeker """
-    number = []
+    total = 0
     text = input()
     txt = ""
-    for ch_ar in range(len(text)):
-        if text[ch_ar].isdigit():
-            txt += text[ch_ar]
+    for alp in text:
+        if alp.isdigit():
+            txt += alp
         else:
-            number.append(int(txt))
-    print(sum(number))
+            if txt != "":
+                total += int(txt)
+                txt = ""
+            else:
+                txt = ""
+    print(total+int(txt) if txt.isdigit() else total)
 main()
